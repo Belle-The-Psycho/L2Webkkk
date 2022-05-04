@@ -1,0 +1,19 @@
+
+body {
+    height: 100vh;
+    background-image: url(Images/background.png);
+    background-size: cover;
+}
+
+nav {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
