@@ -10,10 +10,13 @@ nav {
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    color: white;
+    
 }
 
 a {
     color: white;
     text-decoration: none;
+    font-family: Organic Relief;
+    grid-column: 3/4;
+    grid-row: 1/2;
 }
