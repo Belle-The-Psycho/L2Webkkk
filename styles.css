@@ -7,16 +7,23 @@ body {
 
 nav {
     display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
     
 }
 
-a {
+nav a {
     color: white;
     text-decoration: none;
     font-family: Organic Relief;
-    grid-column: 3/4;
-    grid-row: 1/2;
+    margin: 0px 20px;
+}
+
+.links {
+    justify-self: end;
+    align-self: center;
+}
+
+h1 {
+    color: blue;
+    justify-self: center;
 }
