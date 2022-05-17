@@ -2,6 +2,7 @@ body {
     height: 100vh;
     background-image: url(Images/background.png);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 nav {
@@ -44,5 +45,21 @@ nav a:hover {
 }
 
 .box img {
-    width: 50%;
+    width: 100%;
+}
+
+.gallery {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+    justify-items: center;
+    align-items: center;
+    color: blue;
+    font-family: Organic Relief;
+}
+
+li img {
+    width: 100%;
 }
