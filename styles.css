@@ -60,6 +60,14 @@ nav a:hover {
     font-family: Organic Relief;
 }
 
+#answer,
+h2 {
+    color: blue;
+    font-family: Organic Relief;
+}
+
+
+
 li img {
     width: 100%;
 }
